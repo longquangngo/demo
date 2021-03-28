@@ -8,7 +8,7 @@ RUN mkdir -p /root/demo/
 
 COPY demo-app.py /root/demo/demo-app.py
 COPY requirements.txt /root/demo/requirements.txt
-#RUN pip install -r /root/demo/requirements.txt
+RUN pip3 install -r /root/demo/requirements.txt
 
 ENTRYPOINT ["python"]
 CMD ["/root/demo/demo-app.py"]

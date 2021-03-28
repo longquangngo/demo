@@ -2,7 +2,7 @@ FROM ubuntu:latest
 MAINTAINER David Widen! "david@boxboat.com"
 
 RUN apt-get update -y \
- && apt-get install -y ython-setuptools python-dev build-essential python-pip 
+ && apt-get install -y python-setuptools python-dev build-essential python-pip 
 
 RUN mkdir -p /root/demo/
 
